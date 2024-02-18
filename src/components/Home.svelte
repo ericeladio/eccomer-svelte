@@ -4,7 +4,7 @@
     import Card from "./Card.svelte";
 
     const fetchImage = (async () => {
-        const response = await fetch("https://fakestoreapi.com/productsss");
+        const response = await fetch("https://fakestoreapi.com/products");
 
         return await response.json()
         
