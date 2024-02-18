@@ -1,0 +1,9 @@
+version : "3"
+
+services:
+  Astro:
+    image: image-ecommerce-astro
+    build: ./
+    container_name: Ecommerce-Astro
+    ports:
+      - 4321:4321
