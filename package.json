@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-svelte",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^8.2.0",
+    "@astrojs/svelte": "^5.0.3",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.4.0",
+    "svelte": "^4.2.11",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "flowbite": "^2.3.0",
+    "flowbite-svelte": "^0.44.23"
+  }
+}
