@@ -18,7 +18,7 @@
         <Spinner size={20} />
     </div>
 {:then data}
-    <section class="mt-20 grid grid-cols-2 justify-items-center gap-5 mx-5 lg:grid-cols-4">
+    <section class="mt-20 grid grid-cols-1 justify-items-center gap-5 mx-5 md:grid-cols-2 lg:grid-cols-4">
         {#each data as product, index (product.id)}
             <Card
                 title={product.title}

@@ -16,9 +16,6 @@
   }
   function less() {
     count -= 1;
-    // if (count < 0) {
-    //   count = 0;
-    // }
   }
   function buy() {
     console.log(id, category);
