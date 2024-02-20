@@ -16,9 +16,9 @@
   }
   function less() {
     count -= 1;
-    if (count < 0) {
-      count = 0;
-    }
+    // if (count < 0) {
+    //   count = 0;
+    // }
   }
   function buy() {
     console.log(id, category);
@@ -49,7 +49,7 @@
     </div>
     <div class="flex justify-between items-center my-[80px]">
       <div>
-        <Button class="text-xl" on:click={less}>-</Button>
+        <Button class="text-xl" on:click={less} disabled={count === 0}>-</Button>
         <span class="mx-3 text-xl">{count}</span>
         <Button class="text-xl" on:click={pluss}>+</Button>
       </div>
